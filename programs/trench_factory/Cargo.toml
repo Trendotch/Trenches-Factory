@@ -1,0 +1,12 @@
+[package]
+name = "trench_factory"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.28"
+anchor-spl = "0.28"
+solana-program = "1.18"
+
+[lib]
+crate-type = ["cdylib", "lib"]
