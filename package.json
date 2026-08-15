@@ -1,0 +1,24 @@
+{
+  "name": "trenches-factory",
+  "version": "0.1.0",
+  "description": "Solana Trench Factory - A decentralized platform for creating and managing trenches",
+  "main": "index.js",
+  "scripts": {
+    "build": "anchor build",
+    "test": "anchor test",
+    "deploy": "anchor deploy",
+    "dev": "cd app && npm run dev"
+  },
+  "keywords": [
+    "solana",
+    "anchor",
+    "trench",
+    "factory"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@coral-xyz/anchor": "^0.28.0",
+    "@solana/web3.js": "^1.78.0"
+  }
+}
